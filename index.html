@@ -81,8 +81,9 @@
         padding-top: 4px;
       }
       .card-description {
-        margin: 20px;
-        font-size: 10px;
+        margin: 20px 0px;
+        font-size: 13px;
+        color: var(--color-white);
       }
       .card-link {
         display: flex;
@@ -92,6 +93,9 @@
         border-radius: 5px;
         padding: 8px;
         margin: 4px;
+      }
+      .card-link:hover {
+        background-color: var(--color-gray-900);
       }
     </style>
   </head>
@@ -103,11 +107,11 @@
       <h5>London, United Kingdom</h5>
 
       <p class="card-description">"Front-end developer and avid reader."</p>
-      <p class="card-link">GitHub</p>
-      <p class="card-link">Frontend Mentor</p>
-      <p class="card-link">LinkedIn</p>
-      <p class="card-link">Twitter</p>
-      <p class="card-link">Instagram</p>
+      <div class="card-link"><p>link</p></div>
+      <div class="card-link"><p>Frontend Mentor</p></div>
+      <div class="card-link"><p>LinkedIn</p></div>
+      <div class="card-link"><p>Twitter</p></div>
+      <div class="card-link"><p>Instagram</p></div>
     </main>
   </body>
 </html>
